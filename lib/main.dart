@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:gdsc_tasks/register_screen.dart';
+
+import 'package:gdsc_tasks/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,11 +18,11 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Register',
+      title: 'GDSC',
       theme: ThemeData(
-        primarySwatch: Colors.purple,
+        primarySwatch: Colors.indigo,
       ),
-      home: const RegisterScreen(),
+      home: const SplashScreen(),
     );
   }
 }
